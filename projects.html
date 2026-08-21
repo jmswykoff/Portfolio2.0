@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Projects | James Wyckoff</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="logo">JW<span class="dot">.</span></div>
+    <nav class="nav">
+      <a href="index.html">Home</a>
+      <a href="index.html#about">About</a>
+      <a href="index.html#skills">Skills</a>
+      <a href="projects.html" class="active">Projects</a>
+      <a href="index.html#contact">Contact</a>
+    </nav>
+    <button id="theme-toggle">
+      <span class="icon-sun">☀️</span>
+      <span class="icon-moon">🌙</span>
+    </button>
+  </header>
+
+  <main>
+    <section class="section">
+      <div class="section-header">
+        <h2>My Projects</h2>
+        <p>Real software built with Python, SQL, and C++.</p>
+      </div>
+
+      <div class="projects-grid">
+        <article class="project-card">
+          <h3>Expense Tracker Application</h3>
+          <p class="project-tech">Python • SQL Server • pyodbc</p>
+          <p>Full CRUD expense-tracking system with modular architecture.</p>
+          <ul class="project-list">
+            <li>Reusable CRUD functions</li>
+            <li>Normalized relational schema</li>
+            <li>Menu-driven interface</li>
+          </ul>
+        </article>
+
+        <article class="project-card">
+          <h3>Console Worm Game</h3>
+          <p class="project-tech">C++ • Windows Console API</p>
+          <p>Real-time movement, collision detection, and dynamic growth.</p>
+          <ul class="project-list">
+            <li>Grid-based playfield</li>
+            <li>Parallel array worm structure</li>
+            <li>Packaged Windows .exe</li>
+          </ul>
+        </article>
+
+        <article class="project-card">
+          <h3>Wi-Fi Performance Monitoring Tool</h3>
+          <p class="project-tech">Python • CSV • OS Networking Tools</p>
+          <p>Automation tool for real-time Wi-Fi diagnostics.</p>
+          <ul class="project-list">
+            <li>Latency + speed logging</li>
+            <li>Structured CSV output</li>
+            <li>Readable performance key</li>
+          </ul>
+          
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>© <span id="year"></span> James Wyckoff. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
